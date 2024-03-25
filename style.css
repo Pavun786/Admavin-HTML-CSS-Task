@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    height: 60px;
+    background-color:rgb(230, 241, 245);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.nav-item2 ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-item2 ul li {
+    font-size: small;
+}
+
+.nav-item2 ul li:hover {
+    color:rgb(140, 140, 235);
+}
+
+.nav-btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(230, 241, 245);
+    
+}
+.profile-heading{
+    font-size:40px;
+}
+
+.profileItem-1,.profileItem-2{
+    width:30%;
+    height: auto;
+    padding: 60px;
+}
+
+.profileItem-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px;
+}
+.profileItem-2{
+    padding: 10px;
+}
+
+.profile-image{
+    border: 1px solid ;
+    height: 300px;
+    
+}
+
+.profile-btn,.profile-btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.feature-list,.service-items{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature_iteams,.service_subiteams{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap : 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.feature-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.bi-cart-fill,.bi-shield,.bi-tag,.bi-send,.bi-share,.bi-cloud-plus,.bi-truck,.bi-badge-ad-fill,.bi-award-fill{
+    font-size: 30px;
+}
+
+.statistic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistic-item1,.statistic-item2{
+    width:30%;
+    height: auto;
+    padding: 60px;
+}
+
+.statistic-heading{
+    font-size:20px;
+}
+
+.statistic-item1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px;
+}
+
+.statistic-graph img{
+    height: 250px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.details-item1{
+   
+    border: 1px solid;
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+}
+.details-item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr fr;
+    width :400px;
+    /* background-color: blueviolet; */
+}
+.sub-items1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 20px;
+    
+} 
+
+.sub-items2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 20px;
+    
+} 
+
+.sub-items3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 20px;
+} 
+.sub-items4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 20px;
+} 
+
+.end-details{
+    text-align: center;
+    background-color:rgb(230, 241, 245);
+    padding: 50px;
+    margin-top: 50px;
+}
+.end-items{
+    margin: 20px;
+}
+
+#end-Heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.end-btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-item3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.banner{
+    text-align: center;
+    padding: 100px;
+    background-color:rgb(230, 241, 245);
+}
+
+.banner-item3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+.banner-btn1{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.banner-btn2{
+    padding: 10px;
+    color:blue;
+} 
+
+.banner-item1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-item2{
+    margin: 10px;
+}
+
+.service{
+    text-align: center;
+}
+
+.service-heading{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
+    
+}
+
+
+.service-content{
+    font-size:medium;
+    
+}
+
+.service-discover{
+    color: blue;
+}
+
+.list-icon,.lists{
+    display: none;
+}
+
+
+
+@media screen and (max-width : 520px) {
+    .nav-item2 ul {
+        display: none;
+    }
+
+    .list-icon{
+        display: block;
+    }
+
+   .list-icon:hover + .lists ul{
+       display: block;
+    }
+    
+
+}
