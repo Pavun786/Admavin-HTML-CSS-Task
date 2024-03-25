@@ -272,9 +272,14 @@
     display: none;
 }
 
+a{
+    text-decoration: none;
+    color: red;
+}
 
 
-@media screen and (max-width : 520px) {
+
+@media screen and (max-width : 400px) {
     .nav-item2 ul {
         display: none;
     }
